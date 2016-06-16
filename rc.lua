@@ -1,2 +1,2 @@
-local Theme = "evolution"
-dofile(os.getenv("HOME") .. "/.config/awesome/rc.d/" .. Theme .. "/rc.lua")
+local theme = "virtual"
+dofile(os.getenv("HOME") .. "/.config/awesome/rc.d/" .. theme .. "/rc.lua")
