@@ -11,7 +11,8 @@ theme                               = {}
 
 theme.confdir                       = os.getenv("HOME") .. "/.config/awesome/rc.d/evolution/theme"
 theme.wallpaper                     = {
-  theme.confdir .. "/wall.png"
+  theme.confdir .. "/wall.png",
+  theme.confdir .. "/wall2.png"
 }
 theme.font                          = "Terminus 8"
 --theme.taglist_font                =

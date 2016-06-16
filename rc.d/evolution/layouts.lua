@@ -13,7 +13,7 @@ layouts = {
 tags = {
    names = {
      { "web", "game", "term", "edit", "docs", "draw", "med", "fil", "lab" },
-     { "web", "game", "term", "edit", "docs", "draw", "med", "fil", "lab" }
+     { "web", "game", "term", "edit", "docs", "chat", "med", "fil", "lab" }
    },
    layout = {
      { layouts[2], layouts[1], layouts[6], layouts[2], layouts[2], layouts[6], layouts[1], layouts[2], layouts[6] },
