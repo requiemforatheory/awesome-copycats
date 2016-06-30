@@ -11,18 +11,12 @@ layouts = {
 
 -- {{{ Tags
 tags = {
-   names = {
-     { "web", "game", "term", "edit", "docs", "draw", "med", "fil", "lab" },
-     { "web", "game", "term", "edit", "docs", "chat", "med", "fil", "lab" }
-   },
-   layout = {
-     { layouts[2], layouts[1], layouts[6], layouts[2], layouts[2], layouts[6], layouts[1], layouts[2], layouts[6] },
-     { layouts[4], layouts[1], layouts[7], layouts[4], layouts[4], layouts[7], layouts[1], layouts[4], layouts[7] }
-   }
+   names = { "web", "game", "term", "edit", "docs", "draw", "med", "fil", "lab" },
+   layout = { layouts[2], layouts[1], layouts[6], layouts[2], layouts[2], layouts[6], layouts[1], layouts[2], layouts[6] }
 }
 
 for s = 1, screen.count() do
 -- Each screen has its own tag table.
-   tags[s] = awful.tag(tags.names[s], s, tags.layout[s])
+   tags[s] = awful.tag(tags.names, s, tags.layout)
 end
 -- }}}

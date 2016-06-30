@@ -14,7 +14,7 @@ theme.wallpaper                     = {
   theme.confdir .. "/wall.jpg",
   theme.confdir .. "/wall2.jpg"
 }
-theme.font                          = "Roboto 10"
+theme.font                          = "Roboto Mono 10"
 --theme.taglist_font                =
 theme.menu_bg_normal                = "#000000"
 theme.menu_bg_focus                 = "#000000"
