@@ -7,7 +7,7 @@
 
 -- Use common for default (non-theme-specific) settings. Currently based on multicolor.
 -- Theme Declaration
-local theme = "material"
+local theme = "nuc"
 local themedir = os.getenv("HOME") .. "/.config/awesome/rc.d/" .. theme
 
 -- {{{ Required libraries

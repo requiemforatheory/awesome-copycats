@@ -82,7 +82,8 @@ for s = 1, screen.count() do
 
     -- Widgets that are aligned to the upper right
     local right_layout = wibox.layout.fixed.horizontal()
-    if s == 1 then right_layout:add(wibox.widget.systray()) end
+    if s == 1 then
+      right_layout:add(wibox.widget.systray()) end
     -- right_layout:add(wibox.widget.systray())
     --right_layout:add(mailicon)
     --right_layout:add(mailwidget)
@@ -98,8 +99,8 @@ for s = 1, screen.count() do
     right_layout:add(cpuwidget)
     right_layout:add(fsicon)
     right_layout:add(fswidget)
-    right_layout:add(weathericon)
-    right_layout:add(myweather)
+    --right_layout:add(weathericon)
+    --right_layout:add(myweather)
     right_layout:add(tempicon)
     right_layout:add(tempwidget)
     right_layout:add(baticon)
